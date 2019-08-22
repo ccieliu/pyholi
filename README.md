@@ -11,6 +11,6 @@ elif myresult==2:
     print("legal holidays but need work")
 
 print("Weekend:",pyholi.checkweekend(mydate))
-country can be "CH" "JP" "KR"  (ignore case)
+country can be "ZH" "JP" "KR"  (ignore case)
 mydate can be "2017-01-01" or "2017-1-1"
 ```
