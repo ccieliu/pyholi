@@ -1,6 +1,6 @@
 import pyholi
 
-mydate='2017-4-5'
+mydate='2019-1-1'
 
 # myresult=pyholi.pyholi(mydate,"ZH")
 # if myresult == 0:
@@ -11,11 +11,11 @@ mydate='2017-4-5'
 #     print("legal holidays but need work")
 #
 # print("Weekend:",pyholi.checkweekend(mydate))
-# country can be "CH" "JP" "KR"  (ignore case)
+# country can be "ZH" "JP" "KR"  (ignore case)
 # mydate can be "2017-01-01" or "2017-1-1"
 
-myresult=pyholi.checkholi(mydate,country="kR")
+myresult=pyholi.checkholi(mydate,country="JP")
 if myresult == 1:
-    print('Yes it is a kr holiday')
+    print('Yes it is a JP holiday')
 elif myresult == 0:
     print('No!! ')
